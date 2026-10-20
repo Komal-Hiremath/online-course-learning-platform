@@ -1,0 +1,63 @@
+#navbar {
+    background: #4f3b78;
+    height: 60px;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    align-items: center;
+    height: inherit;
+
+}
+
+.container a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logoBlock {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menuBlock {
+    flex-basis: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuBlock nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.menuBlock nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.menuBlock nav ul li a,
+.logoutBtn {
+    padding: 10px;
+    color: #fff;
+    font: inherit;
+}
+
+.menuBlock nav ul li a {
+    text-decoration: none;
+}
+
+.logoutBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.panel { max-width: 1100px; }
+.panel h1 {
+  color: #4f3b78; font-size: 22px; text-transform: uppercase; font-weight: 800;
+  padding-bottom: 10px; border-bottom: 3px solid #32136c; width: fit-content; margin-bottom: 22px;
+}
+.muted { color: #777; font-size: 14px; }
+.error { color: #b02a37; font-size: 14px; margin: 10px 0; }
+.center { padding: 40px 0; text-align: center; }
+
+.tableWrap { overflow-x: auto; border: 1px solid #e3e3e3; border-radius: 8px; }
+.table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table th, .table td { padding: 11px 14px; text-align: left; border-bottom: 1px solid #eee; vertical-align: top; }
+.table th { background: #f3effa; color: #32136c; font-weight: 700; white-space: nowrap; }
+.table tr:last-child td { border-bottom: none; }
+.mono { font-family: monospace; font-size: 12px; color: #555; word-break: break-all; }
+
+.badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; background: #e6e6e6; color: #444; }
+.badgeOk { background: #d9f2e0; color: #1b6b35; }
+.badgeWarn { background: #ffe9c7; color: #8a5a00; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.stat { background: #f3effa; border-radius: 10px; padding: 16px 18px; }
+.stat span { display: block; font-size: 13px; color: #555; }
+.stat strong { font-size: 26px; color: #32136c; }
+
+.btn {
+  background: #1b0d6f; color: #fff; border: none; padding: 9px 18px; border-radius: 5px;
+  font-size: 14px; font-weight: 600; cursor: pointer; transition: 0.2s;
+}
+.btn:hover:not(:disabled) { background: #714cb6; }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.btnDanger { background: #dc3545; }
+.btnDanger:hover:not(:disabled) { background: #b02a37; }
+.btnGhost { background: #fff; color: #1b0d6f; border: 1px solid #1b0d6f; }
+.btnGhost:hover:not(:disabled) { background: #f3effa; }
+
+.list { display: flex; flex-direction: column; gap: 12px; }
+.notification {
+  display: flex; justify-content: space-between; gap: 16px; align-items: flex-start;
+  padding: 14px 16px; border: 1px solid #e3e3e3; border-radius: 8px; background: #fff;
+}
+.notificationUnread { border-left: 4px solid #714cb6; background: #faf8ff; }
+.notification h3 { font-size: 15px; color: #32136c; margin-bottom: 4px; }
+.notification p { font-size: 14px; color: #555; margin-bottom: 6px; }
+
+/* charts */
+.chartCard { border: 1px solid #e3e3e3; border-radius: 10px; padding: 18px; margin-bottom: 22px; background: #fff; }
+.chartCard h2 { font-size: 16px; color: #32136c; margin-bottom: 14px; }
+.bars { display: flex; align-items: flex-end; gap: 8px; height: 180px; padding-top: 18px; }
+.barCol { flex: 1; min-width: 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+.barValue { font-size: 11px; color: #444; margin-bottom: 3px; }
+.barFill { width: 100%; max-width: 38px; background: linear-gradient(#714cb6, #4f3b78); border-radius: 4px 4px 0 0; min-height: 2px; }
+.barLabels { display: flex; gap: 8px; margin-top: 6px; }
+.barLabels span { flex: 1; min-width: 0; font-size: 10px; color: #666; text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* layout manager */
+.tabs { display: flex; gap: 8px; margin-bottom: 22px; flex-wrap: wrap; }
+.tab { padding: 9px 18px; border-radius: 20px; border: 1px solid #c9bfe3; background: #fff; color: #4f3b78; cursor: pointer; font-weight: 600; text-transform: capitalize; }
+.tabActive { background: #4f3b78; color: #fff; border-color: #4f3b78; }
+
+.form { display: flex; flex-direction: column; gap: 16px; max-width: 760px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 14px; font-weight: 600; color: #333; }
+.field input[type="text"], .field textarea {
+  padding: 11px 13px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; background: #fff; width: 100%;
+}
+.field textarea { min-height: 80px; resize: vertical; }
+.field input:focus, .field textarea:focus { outline: none; border-color: #4f3b78; box-shadow: 0 0 0 2px rgba(79,59,120,.12); }
+.preview { width: 100%; max-height: 220px; object-fit: cover; border-radius: 8px; border: 1px solid #e3e3e3; }
+.itemRow { display: flex; gap: 10px; align-items: flex-start; }
+.itemRow > div { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.faqBox { border: 1px solid #e3e3e3; border-radius: 8px; padding: 12px; display: flex; gap: 10px; align-items: flex-start; }
+.faqBox > div { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.faqBox input, .faqBox textarea { padding: 10px 12px; border: 1px solid #ccc; border-radius: 5px; font-size: 14px; width: 100%; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }

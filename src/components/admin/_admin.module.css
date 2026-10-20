@@ -1,0 +1,191 @@
+.adminDashboard {
+    background: #fff;
+    min-height: 90vh;
+}
+
+.adminDashboard>article {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.adminDashboard>article>aside:nth-child(1) {
+    width: 260px;
+    min-width: 260px;
+    min-height: 100vh;
+    background: #4f3b78;
+    padding: 20px;
+    border-right: 1px solid #32136c;
+    border-top: 1px solid #1111117d;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.adminDashboard>article>aside:nth-child(1) h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.adminDashboard>article>aside:nth-child(1) nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.adminDashboard>article>aside:nth-child(1) nav a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.adminDashboard>article>aside:nth-child(1) nav a:hover {
+    background: #714cb6;
+}
+
+.adminDashboard>article>aside:nth-child(1) nav a.active {
+    background: #32136c;
+    color: #fff;
+}
+
+.adminDashboard>article>aside:nth-child(2) {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.adminDashboard #userList>article>h1 {
+    color: purple;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    width: fit-content;
+    border-bottom: 3px solid #32136c;
+    margin: 20px 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+tr {
+    width: 100%;
+}
+
+thead {
+    width: 100%;
+    border: 1px solid #714cb6 !important;
+    background: #1b0d6f !important;
+    color: #fff;
+}
+
+thead th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 3px solid #1a3c4d;
+}
+
+tbody {
+    background-color: #fff;
+}
+
+tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+tbody td:last-child {
+    border-right: none;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.updateForm h1 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 10px;
+}
+
+.updateForm div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.updateForm label {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.updateForm input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.updateForm button {
+    background-color: #1b0d6f;
+    width: auto;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #1a0595;
+    color: #fff;
+    transition: ease-in-out 0.5s linear;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.updateForm button:hover {
+    background-color: #714cb6;
+    color: #fff;
+}
+
+.profilePic {
+    position: relative;
+}
+
+.profilePic svg {
+    position: absolute;
+    right: 0;
+    font-size: 35px;
+}

@@ -10,7 +10,7 @@ const AnonUser = () => {
         <Link to="/courses">Courses</Link>
       </li>
       <li>
-        <Link to="/lms">LMS Marketplace</Link>
+        <Link to="/lms">LMS MarketPlace</Link>
       </li>
       <li>
         <Link to="/auth/register">Register</Link>

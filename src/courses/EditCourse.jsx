@@ -45,7 +45,8 @@ const EditCourse = () => {
       <div>
         <h2>Course not found</h2>
         <button onClick={() => navigate("/admin/admin-dashboard/courses")}>
-          Back to courses and chandu
+          Back to courses and santhosh
+
         </button>
       </div>
     );

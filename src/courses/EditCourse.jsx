@@ -43,7 +43,7 @@ const EditCourse = () => {
   if (!course) {
     return (
       <div>
-        <h2>Course not found</h2>
+        <h2>Course not </h2>
         <button onClick={() => navigate("/admin/admin-dashboard/courses")}>
 
         </button>

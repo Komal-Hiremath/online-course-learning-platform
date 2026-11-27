@@ -14,13 +14,13 @@ const AdminRoute = () => {
     return (
       <>
         <div>
-          <h2>Access Restricted</h2>
+          <h2>Access Restricted1234578</h2>
           <p>
             {user.name}, your role is "{user.role}". You cannot access this
             page.
           </p>
         </div>
-        <Link to="/user/profile">Return Home</Link>
+        <Link to="/user/profile">Return Home123455666</Link>
       </>
     );
   }

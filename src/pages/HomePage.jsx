@@ -52,7 +52,7 @@ const HomePage = () => {
               "Browse our collection of professional courses and start learning."}
           </p>
           <Link className={Styles.cta} to="/courses">
-            Explore courses
+            Explore courses and test yantra people
           </Link>
         </div>
 

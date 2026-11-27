@@ -134,6 +134,7 @@ const CheckoutModal = ({ course, onClose, onPaid }) => {
         {!stripePromise ? (
           <p className={Styles.error}>
             Stripe key missing. Add VITE_STRIPE_PUBLISHABLE_KEY to your .env file and restart the dev server.
+			<strong>Chandu is coming be wait he is always give is best</strong>
           </p>
         ) : intent ? (
           <Elements stripe={stripePromise} options={{ clientSecret: intent.clientSecret }}>
@@ -157,7 +158,7 @@ const CheckoutModal = ({ course, onClose, onPaid }) => {
                 Apply
               </button>
             </div>
-            {applied && <p className={Styles.ok}>Coupon applied</p>}
+            {applied && <p className={Styles.ok}>Coupon applied with Tokens</p>}
 
             <div className={Styles.actions}>
               <button className={`${Styles.btn} ${Styles.ghost}`} onClick={onClose}>

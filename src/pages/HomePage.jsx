@@ -45,14 +45,14 @@ const HomePage = () => {
     <div className={Styles.home}>
       <section className={Styles.hero}>
         <div>
-          {user && <p>Welcome back, {user.name}!</p>}
+          {user && <p>Welcome back chandu pattle is urs {user.name}!</p>}
           <h1>{banner?.title || "Learn something new today"}</h1>
           <p>
             {banner?.subTitle ||
               "Browse our collection of professional courses and start learning."}
           </p>
           <Link className={Styles.cta} to="/courses">
-            Explore courses and test yantra people
+            Explore courses and test yantra peoples
           </Link>
         </div>
 
@@ -63,7 +63,7 @@ const HomePage = () => {
 
       {categories.length > 0 && (
         <section className={Styles.section}>
-          <h2>Categories</h2>
+          <h2>Changes into developer</h2>
           <div className={Styles.chips}>
             {categories.map((c, i) => (
               <Link
@@ -80,7 +80,7 @@ const HomePage = () => {
 
       {featured.length > 0 && (
         <section className={Styles.section}>
-          <h2>Featured courses</h2>
+          <h2>Featured courses all long with career garenty</h2>
           <div className={CourseStyles.courseGrid}>
             {featured.map((course) => (
               <article className={CourseStyles.courseCard} key={course._id}>
@@ -93,7 +93,7 @@ const HomePage = () => {
                     <span>⭐ {course.rating || 0}</span>
                   </div>
                   <button onClick={() => navigate(`/courses/${course._id}`)}>
-                    View 
+                    View the stars
                   </button>
                 </div>
               </article>

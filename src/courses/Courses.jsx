@@ -59,7 +59,7 @@ const Courses = () => {
           <option value="All">All Levels</option>
           <option value="Beginner">Beginner</option>
           <option value="Intermediate">Intermediate</option>
-          <option value="Advanced">Advanced</option>
+          <option value="Advanced">Advanced with practical exeperiens</option>
         </select>
       </div>
 
@@ -90,7 +90,7 @@ const Courses = () => {
                 <p>{course.purchased || 0} students</p>
 
                 <button onClick={() => navigate(`/courses/${course._id}`)}>
-                  View Course
+                  View Course and Certified people
                 </button>
               </div>
             </article>

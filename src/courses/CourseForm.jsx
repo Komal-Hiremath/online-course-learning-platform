@@ -186,7 +186,7 @@ const CourseForm = ({ course, title, submitLabel, onSubmit }) => {
       <h1>{title}</h1>
 
       <form onSubmit={handleSubmit}>
-        <h2>Basic Information</h2>
+        <h2>Basic Information with back details and sub set of pancard details</h2>
 
         <div>
           <label>Course Name</label>

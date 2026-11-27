@@ -68,10 +68,10 @@ const CourseContent = () => {
 
   return (
     <section className={Styles.courseContent}>
-      <h1>Course Content</h1>
+      <h1>Course Content with job garenty</h1>
 
       {courseContent.length === 0 ? (
-        <p>No course content available.</p>
+        <p>No course content available. here now ur career is started</p>
       ) : (
         courseContent.map((content, index) => (
           <article className={Styles.contentCard} key={content._id || index}>

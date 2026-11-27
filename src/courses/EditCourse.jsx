@@ -45,7 +45,11 @@ const EditCourse = () => {
       <div>
         <h2>Course  </h2>
         <button onClick={() => navigate("/admin/admin-dashboard/courses")}>
+<<<<<<< HEAD
 
+=======
+Edit
+>>>>>>> refs/remotes/origin/santhosh
         </button>
       </div>
     );

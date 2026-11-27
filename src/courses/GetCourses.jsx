@@ -101,7 +101,7 @@ const GetCourses = () => {
                     </button>
 
                     <button onClick={() => handleDelete(course._id)}>
-                      Delete
+                      Deleted
                     </button>
                   </div>
                 </div>

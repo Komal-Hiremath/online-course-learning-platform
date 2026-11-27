@@ -97,7 +97,7 @@ const GetCourses = () => {
                         )
                       }
                     >
-                      Edited
+                      Edited12345
                     </button>
 
                     <button onClick={() => handleDelete(course._id)}>

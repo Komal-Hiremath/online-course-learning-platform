@@ -17,6 +17,8 @@ const AdminRoute = () => {
           <h2>Access Restricted when some one is always with u </h2>
           <h1>Chandu always using his mobile</h1>
           <p>
+		 <h2>The process of chandu is always something to mixed instagrsma</h2>
+		 
             {user.name}, your role is "{user.role}". You cannot access this
             page.
           </p>

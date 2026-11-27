@@ -94,7 +94,7 @@ const CourseContent = () => {
 
                 {question.answers?.map((answer) => (
                   <div className={Styles.answer} key={answer._id}>
-                    <strong>Answer123</strong>
+                    <strong>Answer123456</strong>
                     <p>{answer.answer}</p>
                   </div>
                 ))}

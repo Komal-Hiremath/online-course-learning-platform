@@ -37,7 +37,7 @@ const SingleUser = () => {
             />
           </div>
           <div className="form-group">
-            <button>Santhosh</button>
+            <button>update Role</button>
           </div>
         </form>
       </main>

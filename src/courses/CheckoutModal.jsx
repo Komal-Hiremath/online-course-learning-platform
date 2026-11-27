@@ -11,7 +11,6 @@ const stripeKey = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY;
 const stripePromise = stripeKey ? loadStripe(stripeKey) : null;
 
 /* ---------- step 2: card form (inside <Elements>) ---------- */
-
 const PayForm = ({ courseId, couponCode, paymentIntentId, onPaid }) => {
   const stripe = useStripe();
   const elements = useElements();

@@ -44,7 +44,7 @@ const Courses = () => {
     <section className={Styles.coursesPage}>
       <div className={Styles.coursesHeader}>
         <h1>Courses</h1>
-        <p>Learn from our collection of professional courses</p>
+        <p>Learn from our collection of professional courses and come</p>
       </div>
 
       <div className={Styles.filters}>

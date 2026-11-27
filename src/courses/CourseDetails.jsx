@@ -439,7 +439,7 @@ const CourseDetails = () => {
           />
 
           <button type="button" disabled={busy} onClick={handleReview}>
-            Submit 
+            Submit Review2345
           </button>
         </div>
       )}

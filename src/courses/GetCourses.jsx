@@ -54,7 +54,7 @@ const GetCourses = () => {
           <button
             onClick={() => navigate("/admin/admin-dashboard/create-course")}
           >
-            Create Your First Course
+            Create Your First Courses
           </button>
         </div>
       ) : (

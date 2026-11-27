@@ -14,13 +14,14 @@ const AdminRoute = () => {
     return (
       <>
         <div>
-          <h2>Access Restricted</h2>
+          <h2>Access Restricted when some one is always with u </h2>
+          <h1>Chandu always using his mobile</h1>
           <p>
             {user.name}, your role is "{user.role}". You cannot access this
             page.
           </p>
         </div>
-        <Link to="/user/profile">Return Home</Link>
+        <Link to="/user/profile">Return Home dont call multiple times</Link>
       </>
     );
   }

@@ -65,7 +65,7 @@ const Courses = () => {
 
       {filteredCourses.length === 0 ? (
         <div className={Styles.emptyState}>
-          <h2>No found</h2>
+          <h2>No foun</h2>
        
        
           <p>Try another search or level.</p>

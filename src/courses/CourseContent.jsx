@@ -60,7 +60,7 @@ const CourseContent = () => {
         <p>You are not enrolled in this course.</p>
         <p>Please purchase the course before accessing the lessons.</p>
         <button onClick={() => navigate(`/courses/${id}`)}>
-          Back to Course
+          Back to Courses
         </button>
       </section>
     );

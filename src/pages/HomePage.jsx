@@ -93,7 +93,7 @@ const HomePage = () => {
                     <span>⭐ {course.rating || 0}</span>
                   </div>
                   <button onClick={() => navigate(`/courses/${course._id}`)}>
-                    View Course
+                    View 
                   </button>
                 </div>
               </article>

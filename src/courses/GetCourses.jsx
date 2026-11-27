@@ -54,7 +54,7 @@ const GetCourses = () => {
           <button
             onClick={() => navigate("/admin/admin-dashboard/create-course")}
           >
-            Create Your First Course
+            Create Your First Courses
           </button>
         </div>
       ) : (
@@ -97,13 +97,13 @@ const GetCourses = () => {
                         )
                       }
                     >
-Edit
+Edit Btn
                
 
                     </button>
 
                     <button onClick={() => handleDelete(course._id)}>
-                      Deleted
+                      Delete
                     </button>
                   </div>
                 </div>
